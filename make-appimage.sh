@@ -28,7 +28,7 @@ quick-sharun /usr/bin/c1541 \
 /usr/bin/xplus4 \
 /usr/bin/xscpu64 \
 /usr/bin/xvic \
-usr/share/vice
+/usr/share/vice
 
 # Additional changes can be done in between here
 
