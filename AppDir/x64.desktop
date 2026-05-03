@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=VICE (x64)
+Name=VICE
 Comment=Commodore 64 emulator
 Exec=x64
 Terminal=false
