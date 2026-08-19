@@ -3,7 +3,7 @@
 set -eu
 
 ARCH=$(uname -m)
-VERSION=$(pacman -Q vice | awk '{print $2; exit}') # example command to get version of application here
+VERSION=$(pacman -Q vice | awk '{print $2; exit}')
 export ARCH VERSION
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.hook"
@@ -29,8 +29,6 @@ quick-sharun /usr/bin/c1541 \
 /usr/bin/xscpu64 \
 /usr/bin/xvic \
 /usr/share/vice
-
-# Additional changes can be done in between here
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
